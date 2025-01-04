@@ -2,4 +2,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: Blakemcfadden/caldera-keyboard/zmk-config-caldera/.github/workflows/build.yml
+    uses: ./zmk-config-caldera/.github/workflows/build.yml
